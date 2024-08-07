@@ -1,0 +1,17 @@
+Автоматизированные тесты сайта Stellar Burges. Helper для генерации данных.
+
+test_login_main_page
+test_login_from_lk_page
+test_login_from_registration_button
+test_login_from_recovery_password_button
+test_logout
+test_success_registration
+test_registration_with_invalid_password
+test_switch_from_lk_to_constructor
+test_switch_to_lk
+test_from_buns_to_toppings
+test_from_buns_to_sauces
+test_from_buns_to_toppings_and_back_to_buns
+
+
+
