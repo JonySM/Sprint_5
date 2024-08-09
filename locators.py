@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 
 
-
 class Locators:
     LOGIN_INPUT_FIELD = (By.XPATH, ".//input[@name='name']")  # Ввод логина(почта)
     PASSWORD_INPUT_FIELD = (By.XPATH, ".//input[@name='Пароль']")  # Ввод пароля
@@ -19,9 +18,7 @@ class Locators:
     CONSTRUCTOR_BUNS = (By.XPATH, ".//div[@class = 'tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect']//span[text() ='Булки']")  # Раздел конструктора булки
     CONSTRUCTOR_SAUCES = (By.XPATH, ".//div[@class = 'tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect']//span[text() ='Соусы']")  # Раздел конструктора соусы
     CONSTRUCTOR_TOPPINGS = (By.XPATH, ".//div[@class = 'tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect']//span[text() ='Начинки']")  # Раздел конструктора начинки
-    ELEMENT_BUNS = (By.XPATH, ".//h2[text()='Булки']")  # Элемент булки
-    ELEMENT_TOPPINGS = (By.XPATH, ".//h2[text()='Начинки']")  # Элемент булки
-    ELEMENT_SAUCES = (By.XPATH, ".//h2[text()='Соусы']")  # Элемент булки
+    STEP_ON_THE_TAB = (By.XPATH, ".//div[@class='tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")  # Переход на вкладку
     REGISTRATION_NAME_FILD = (By.NAME, "name")  # Имя в форме регистрации
     REGISTRATION_EMAIL_FILD = (By.XPATH, ".//label[text()='Email']/parent::*/input")  # Почта в форме регистрации
     REGISTRATION_PASSWORD_FILD = (By.NAME, "Пароль")  # Пароль в форме регистрации

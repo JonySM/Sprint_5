@@ -1,7 +1,6 @@
 import random
 
 
-
 class Help:
     @staticmethod
     def generated_name():
